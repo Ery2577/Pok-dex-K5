@@ -1,0 +1,19 @@
+{
+  "name": "web2",
+  "version": "1.0.0",
+  "description": "`STD24201`  : Heriniaina RAMAHERITO  \r `STD24210`\t: Finoana Soamiadana RAKOTOSON   \r `STD24219`\t: sarobidy Fitia RAHELINIAINA  \r `STD24223`\t: Aina Tsiory MIHAJARIVO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ery2577/Pok-dex-K5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ery2577/Pok-dex-K5/issues"
+  },
+  "homepage": "https://github.com/Ery2577/Pok-dex-K5#readme"
+}
