@@ -4,15 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-.animate-top{
-    animation: monte 0.5s linear forwards;
-    position: absolute;
+.bg-img{
+    background-image: url(assets/2fa78022ea63709d9983215871be2d33.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
-@keyframes monte {
-    0%{
-        top: 0;
-    }
-    100%{
-        top: 1px;
-    }
+.pt{
+    padding-top: 30px;
+}
+.p-16{
+    padding: 30px;
+}
+.m10{
+    margin: 10px;
+}
+.p10{
+    padding: 10px;
 }
