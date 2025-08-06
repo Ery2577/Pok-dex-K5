@@ -43,7 +43,7 @@ const Poke = () => {
     <section className='relative min-h-screen w-fullfont-[Arial] bg-img'>
 
       {selectedPokemon && (
-        <div className="absolute z-50 top-10 left-1/3 transform -translate-x-1/2 w-[50vw] bg-white  rounded-xl shadow-2xl border border-gray-300 p-16">
+        <div className="absolute z-50 top-25 left-1/2 transform -translate-x-1/2 w-[50vw] bg-white  rounded-xl shadow-2xl border border-gray-300 p-16">
           <button
             className="absolute top-2 right-4 text-gray-500 hover:text-red-500 font-bold"
             onClick={() => setSelectedPokemon(null)}
