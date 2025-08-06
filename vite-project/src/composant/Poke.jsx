@@ -29,14 +29,14 @@ const Poke = () => {
 
   return (
     <section className='bg-img h-screen w-full'>
-      <div  className='font-[Arial]'>
-        <h1 className='text-4xl font-light text-gray-500'>Pokémon</h1>
+      <div  className='font-[Arial] flex justify-center items-center flex-col gap-10'>
+        <h1 className=' text-4xl font-light text-gray-500'>Pokémon</h1>
         {loading ? (
           <p>Chargement...</p>
         ) : (
-          <div className='flex justify-center items-center flex-wrap gap-8 mt-8 overflow-auto h-4/5 w-[1000px] '>
+          <div className='flex justify-center flex-wrap gap-8 mt-8 h-[85vh] overflow-auto w-[80vw] shadow-sm'>
             {pokemons.map((pokemon) => (
-              <div key={pokemon.id} className='border border-gray-300 rounded-[12px] p-4 w-[200px] text-center bg-gray-200 flex justify-center items-center '>
+              <div key={pokemon.id} className='border border-gray-300 rounded-[12px] p-4 w-[250px] h-[250px] text-center bg-gray-200 flex justify-center items-center flex-col shadow'>
                 <img className='w-[150px]' src={pokemon.sprites.front_default} alt={pokemon.name} />
                 <h3 style={{ textTransform: 'capitalize' }}>{pokemon.name}</h3>
                 <p>#{String(pokemon.id).padStart(4, '0')}</p>
